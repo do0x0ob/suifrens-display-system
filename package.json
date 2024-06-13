@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "dev": "tsx watch ./src/api/index.ts",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "PORT=80 storybook dev -p 6006",
     "prettier:fix": "prettier -w --ignore-unknown ."
   },
   "dependencies": {
