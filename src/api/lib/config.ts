@@ -10,7 +10,7 @@ type Config = {
 type Network = "mainnet" | "testnet";
 
 // Default network
-export const NETWORK: Network = "mainnet"; //TODO: Testnet
+export const NETWORK: Network = "testnet"; //TODO: Testnet
 
 export const mainnet: Config = {
   rpcUrl: "https://suifrens-rpc.mainnet.sui.io",
